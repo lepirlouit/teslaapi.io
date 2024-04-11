@@ -507,6 +507,9 @@ Bearer `{access_token}` from authentication
 {% endapi-method %}
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/sun\_roof\_control?state=:state&percent=:percent" %}
+{% api-method-summary %}
+Set Sun Roof Opening
+{% endapi-method-summary %}
 
 * `open` - 100%  
 * `closed` - 0%  
@@ -516,7 +519,7 @@ Bearer `{access_token}` from authentication
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/actuate\_trunk" %}
 {% api-method-summary %}
-
+Open vehicles trunk or frunk
 {% endapi-method-summary %}
 
 {% api-method-description %}
